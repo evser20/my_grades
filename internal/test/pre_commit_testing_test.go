@@ -15,7 +15,7 @@ func TestSum(t *testing.T) {
 		args args
 		want int
 	}{
-		{"Success test", args{50, 50}, 100},
+		{"Test 1", args{50, 50}, 100},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
